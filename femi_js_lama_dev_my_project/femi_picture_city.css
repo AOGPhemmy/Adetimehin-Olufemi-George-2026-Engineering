@@ -1,0 +1,84 @@
+body {
+  font-family: "open sans", sans-serif;
+  background-color: black;
+}
+
+h3 {
+  font-family: "open sans", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  color: #555;
+}
+
+.femi_header {
+  justify-content: center;
+  text-align: center;
+}
+
+span {
+  font-family: "open sans", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+.container {
+  display: flex;
+  padding: 50px;
+}
+
+.leftMenu {
+  flex: 2;
+}
+
+.search {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid gray;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "open sans", sans-serif;
+  color: #555;
+}
+
+.cats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "open sans", Verdana, Geneva, Tahoma, sans-serif;
+  color: olivedrab;
+}
+
+.cat {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.ageValue {
+  color: #555;
+}
+.content {
+  flex: 5;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.product {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  color: #555;
+}
+
+img {
+  width: 150px;
+  height: 250px;
+  object-fit: contain;
+}
